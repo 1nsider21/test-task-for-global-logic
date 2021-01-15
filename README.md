@@ -1,24 +1,2 @@
-# test-task-for-global-logic
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Test task for Global Logic
+Built on VueJS 3 application. [Demo link](https://1nsider21.github.io/test-task-for-global-logic/)
