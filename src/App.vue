@@ -1,30 +1,48 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <header class="header">
+    <router-link to="/">
+      <h1 class="header__title">VueMovies Database</h1>
+    </router-link>
+  </header>
+  <main class="main">
+    <router-view/>
+  </main>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-#nav {
-  padding: 30px;
-}
+  a {
+    text-decoration: none;
+  }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
+  ul {
+    list-style: none;
+  }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  body {
+    font-family: 'Fira sans', sans-serif ;
+    background: lightgrey;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: grey;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+
+  .header__title {
+    color: #42B883;
+  }
+
+  .main {
+    padding: 40px 20px 0;
+  }
 </style>
